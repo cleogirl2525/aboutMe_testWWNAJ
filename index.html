@@ -16,7 +16,7 @@
     background-color: rgba(0, 0, 0, .8); 
     color: white;
     border: .5px solid red;
-    font-family: arial, sans-serif;
+    font-family: monospace;
     font-size: 13.5px;
     letter-spacing: 2px;
     text-align: justify;
@@ -24,19 +24,9 @@
     height: 12vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50%;
+    margin-top: 25%;
     padding: 10px 25px 10px 25px;
     overflow: auto;
-  }
-  
-  button {
-   background-color: black; 
-   border: 1px solid red;
-   color: white;
-   font-family: arial, sans-serif;
-   font-size: 13px;
-   letter-spacing: 2px;    
-   padding: 3px 5px 3px 5px;
   }
   
 /* width */
@@ -60,6 +50,25 @@
   background: red; 
 }
   
+input[type=text] {
+  background-color: rgb(0,0,0);
+  color: #FFFFFF;
+  border: 1px solid rgb(255,0,0);
+  text-align: center;
+  font-family: monospace;
+  font-size: 13px; 
+  padding: 3px 5px 3px 5px;
+}
+button {
+  background-color: rgb(0,0,0);
+  color: rgb(255,0,0);
+  border: 1px solid rgb(255,0,0);
+  text-align: center;
+  font-family: monospace;
+  font-size: 13px; 
+  padding: 3px 5px 3px 5px;
+  }
+  
 </style>
 
 <div class="broken">
@@ -70,5 +79,4 @@
     HOLLOWAY’s ._SUITABLE_FOR.EXE[CUTION] installation is a highly complex, preprogrammed, push to start system that incorporates sculpture, sound, video, creative coding, text and performance to create a portrait of a machine performing labor. The apparatus is structured around four sculptures, [SIT] STAY FETCH SPEAK.obj, SIT [STAY] FETCH SPEAK.obj, SIT STAY [FETCH] SPEAK.obj, and SIT STAY FETCH [SPEAK].obj that  function as a physical score through which an algorithmic performance is run. There are remnants from an accompanying live performance of a sci-fi survival game between four captive animals and their ruthless handler.  Human desire and machine desire become indistinguishable. The system seems to be at the brink of collapse, but there is no time for despair. The artist asks us to acknowledge our own role in the game of power and realize that the machine is not the other, it is us.</p>
 </div><br>
 
-<center><button> BEGIN
-  </button></center>
+<center><input type="text" id="lname" name="lname" value="enter password here"><br><br><button>click to begin</button>
